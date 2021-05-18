@@ -5,3 +5,9 @@ function taskrunner(userprocess,taskname,nooftimes){
     console.log('finished',taskname);
 }
 
+taskrunner(function(data){
+    console.log("executing",data);
+},
+"Documenting",
+5)
+
