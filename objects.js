@@ -11,12 +11,12 @@ a.name="Rahul"
 a.age=40
 
 console.log(a);
-property="name"
+property="age"
 console.log(a["sno"])
 console.log(a[property])
 console.log(a.city)
-//b=a
-b={...a};
+//b=a  //it copies reference
+b={...a}; //only content is copied
 b.country='India';
 console.log(b)
 console.log(a)
