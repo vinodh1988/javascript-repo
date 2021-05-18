@@ -28,3 +28,7 @@ d="India"
 e=[34,34,3546,45,446]
 
 console.log(a,b,c,d,e)
+
+console.log(typeof(a),typeof(b),typeof(c),typeof(d),typeof(e))
+
+console.log(a instanceof Number,b instanceof String ,c  instanceof Boolean ,d instanceof String,e instanceof Array )
